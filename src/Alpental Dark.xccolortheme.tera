@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>DVTFontAndColorVersion</key>
+    <integer>1</integer>
+
+    <!-- Editor core colors -->
+    <key>DVTSourceTextBackground</key>
+    <string>{{ rgba_floats(color=dark.alternate, alpha=1.0) }}</string>
+    <key>DVTSourceTextInsertionPointColor</key>
+    <string>{{ rgba_floats(color=accents.info, alpha=1.0) }}</string>
+    <key>DVTSourceTextSelectionColor</key>
+    <string>{{ rgba_floats(color=accents.info, alpha=0.28) }}</string>
+    <key>DVTSourceTextInvisiblesColor</key>
+    <string>{{ rgba_floats(color=dark.text_tertiary, alpha=1.0) }}</string>
+    <key>DVTSourceTextCurrentLineHighlightColor</key>
+    <string>{{ rgba_floats(color=dark.tertiary, alpha=0.4) }}</string>
+
+    <!-- Console colors (keep aligned with editor) -->
+    <key>DVTConsoleTextBackgroundColor</key>
+    <string>{{ rgba_floats(color=dark.alternate, alpha=1.0) }}</string>
+    <key>DVTConsoleTextInsertionPointColor</key>
+    <string>{{ rgba_floats(color=accents.info, alpha=1.0) }}</string>
+    <key>DVTConsoleTextSelectionColor</key>
+    <string>{{ rgba_floats(color=accents.info_secondary, alpha=0.28) }}</string>
+    <key>DVTConsoleDebuggerOutputTextColor</key>
+    <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+    <key>DVTConsoleDebuggerPromptTextColor</key>
+    <string>{{ rgba_floats(color=dark.text_secondary, alpha=1.0) }}</string>
+    <key>DVTConsoleExectuableInputTextColor</key>
+    <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+    <key>DVTConsoleExectuableOutputTextColor</key>
+    <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+
+    <!-- Syntax colors -->
+    <key>DVTSourceTextSyntaxColors</key>
+    <dict>
+        <key>xcode.syntax.attribute</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.character</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.comment</key>
+        <string>{{ rgba_floats(color=dark.text_secondary, alpha=1.0) }}</string>
+        <key>xcode.syntax.comment.doc</key>
+        <string>{{ rgba_floats(color=dark.text_secondary, alpha=1.0) }}</string>
+        <key>xcode.syntax.comment.doc.keyword</key>
+        <string>{{ rgba_floats(color=accents.warning, alpha=1.0) }}</string>
+        <key>xcode.syntax.declaration.other</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.declaration.type</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.identifier.class</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.identifier.class.system</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.identifier.constant</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.identifier.constant.system</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.identifier.function</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.identifier.function.system</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.identifier.macro</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.identifier.macro.system</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.identifier.type</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.identifier.type.system</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.identifier.variable</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.identifier.variable.system</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.keyword</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.mark</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.markup.code</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.number</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.plain</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.preprocessor</key>
+        <string>{{ rgba_floats(color=dark.text_secondary, alpha=1.0) }}</string>
+        <key>xcode.syntax.regex</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.regex.capturename</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.regex.charname</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.regex.number</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.regex.other</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.string</key>
+        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <key>xcode.syntax.url</key>
+        <string>{{ rgba_floats(color=accents.info, alpha=1.0) }}</string>
+    </dict>
+
+    <!-- Syntax fonts -->
+    <key>DVTSourceTextSyntaxFonts</key>
+    <dict>
+        <key>xcode.syntax.attribute</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.character</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.comment</key>
+        <string>SFMono-RegularItalic - 12.0</string>
+        <key>xcode.syntax.comment.doc</key>
+        <string>SFMono-RegularItalic - 12.0</string>
+        <key>xcode.syntax.comment.doc.keyword</key>
+        <string>SFMono-SemiboldItalic - 12.0</string>
+        <key>xcode.syntax.declaration.other</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.declaration.type</key>
+        <string>SFMono-Semibold - 12.0</string>
+        <key>xcode.syntax.identifier.class</key>
+        <string>SFMono-Semibold - 12.0</string>
+        <key>xcode.syntax.identifier.class.system</key>
+        <string>SFMono-Semibold - 12.0</string>
+        <key>xcode.syntax.identifier.constant</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.identifier.constant.system</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.identifier.function</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.identifier.function.system</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.identifier.macro</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.identifier.macro.system</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.identifier.type</key>
+        <string>SFMono-Semibold - 12.0</string>
+        <key>xcode.syntax.identifier.type.system</key>
+        <string>SFMono-Semibold - 12.0</string>
+        <key>xcode.syntax.identifier.variable</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.identifier.variable.system</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.keyword</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.mark</key>
+        <string>SFMono-Bold - 12.0</string>
+        <key>xcode.syntax.markup.code</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.number</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.plain</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.preprocessor</key>
+        <string>SFMono-RegularItalic - 12.0</string>
+        <key>xcode.syntax.regex</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.regex.capturename</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.regex.charname</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.regex.number</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.regex.other</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.string</key>
+        <string>SFMono-Regular - 12.0</string>
+        <key>xcode.syntax.url</key>
+        <string>SFMono-Regular - 12.0</string>
+    </dict>
+
+    <!-- Line spacing -->
+    <key>DVTLineSpacing</key>
+    <real>1.1</real>
+</dict>
+</plist>
