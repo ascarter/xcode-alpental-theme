@@ -37,15 +37,15 @@
     <key>DVTSourceTextSyntaxColors</key>
     <dict>
         <key>xcode.syntax.attribute</key>
-        <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
+        <string>{{ rgba_floats(color=dark.text_secondary, alpha=1.0) }}</string>
         <key>xcode.syntax.character</key>
         <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
         <key>xcode.syntax.comment</key>
-        <string>{{ rgba_floats(color=dark.text_secondary, alpha=1.0) }}</string>
+        <string>{{ rgba_floats(color=dark.text_tertiary, alpha=1.0) }}</string>
         <key>xcode.syntax.comment.doc</key>
-        <string>{{ rgba_floats(color=dark.text_secondary, alpha=1.0) }}</string>
+        <string>{{ rgba_floats(color=dark.text_tertiary, alpha=1.0) }}</string>
         <key>xcode.syntax.comment.doc.keyword</key>
-        <string>{{ rgba_floats(color=accents.warning, alpha=1.0) }}</string>
+        <string>{{ rgba_floats(color=dark.text_tertiary, alpha=1.0) }}</string>
         <key>xcode.syntax.declaration.other</key>
         <string>{{ rgba_floats(color=dark.text_primary, alpha=1.0) }}</string>
         <key>xcode.syntax.declaration.type</key>

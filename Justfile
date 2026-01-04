@@ -4,7 +4,7 @@ build:
     mkdir -p themes
     veneer build src themes
 
-install:
+install: build
     mkdir -p "{{env_var('HOME')}}/Library/Developer/Xcode/UserData/FontAndColorThemes"
     cp -f themes/*.xccolortheme "{{env_var('HOME')}}/Library/Developer/Xcode/UserData/FontAndColorThemes/"
 
