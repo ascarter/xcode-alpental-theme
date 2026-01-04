@@ -37,15 +37,15 @@
     <key>DVTSourceTextSyntaxColors</key>
     <dict>
         <key>xcode.syntax.attribute</key>
-        <string>0.000000 0.000000 0.000000 1.000000</string>
+        <string>0.286275 0.286275 0.286275 1.000000</string>
         <key>xcode.syntax.character</key>
         <string>0.000000 0.000000 0.000000 1.000000</string>
         <key>xcode.syntax.comment</key>
-        <string>0.286275 0.286275 0.286275 1.000000</string>
+        <string>0.388235 0.388235 0.388235 1.000000</string>
         <key>xcode.syntax.comment.doc</key>
-        <string>0.286275 0.286275 0.286275 1.000000</string>
+        <string>0.388235 0.388235 0.388235 1.000000</string>
         <key>xcode.syntax.comment.doc.keyword</key>
-        <string>0.286275 0.286275 0.286275 1.000000</string>
+        <string>0.388235 0.388235 0.388235 1.000000</string>
         <key>xcode.syntax.declaration.other</key>
         <string>0.000000 0.000000 0.000000 1.000000</string>
         <key>xcode.syntax.declaration.type</key>
