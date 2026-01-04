@@ -13,7 +13,7 @@
     <key>DVTSourceTextSelectionColor</key>
     <string>0.258824 0.580392 1.000000 0.280000</string>
     <key>DVTSourceTextInvisiblesColor</key>
-    <string>0.286275 0.286275 0.286275 1.000000</string>
+    <string>0.478431 0.478431 0.478431 1.000000</string>
     <key>DVTSourceTextCurrentLineHighlightColor</key>
     <string>0.286275 0.286275 0.286275 0.400000</string>
 
@@ -41,11 +41,11 @@
         <key>xcode.syntax.character</key>
         <string>1.000000 1.000000 1.000000 1.000000</string>
         <key>xcode.syntax.comment</key>
-        <string>0.286275 0.286275 0.286275 1.000000</string>
+        <string>0.478431 0.478431 0.478431 1.000000</string>
         <key>xcode.syntax.comment.doc</key>
-        <string>0.286275 0.286275 0.286275 1.000000</string>
+        <string>0.478431 0.478431 0.478431 1.000000</string>
         <key>xcode.syntax.comment.doc.keyword</key>
-        <string>0.286275 0.286275 0.286275 1.000000</string>
+        <string>0.478431 0.478431 0.478431 1.000000</string>
         <key>xcode.syntax.declaration.other</key>
         <string>1.000000 1.000000 1.000000 1.000000</string>
         <key>xcode.syntax.declaration.type</key>
