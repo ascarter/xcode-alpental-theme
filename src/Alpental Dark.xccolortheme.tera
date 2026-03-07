@@ -19,7 +19,7 @@
 
     <!-- Console colors (keep aligned with editor) -->
     <key>DVTConsoleTextBackgroundColor</key>
-    <string>{{ rgba_floats(color=dark.alternate, alpha=1.0) }}</string>
+    <string>{{ rgba_floats(color=dark.secondary, alpha=1.0) }}</string>
     <key>DVTConsoleTextInsertionPointColor</key>
     <string>{{ rgba_floats(color=accents.info, alpha=1.0) }}</string>
     <key>DVTConsoleTextSelectionColor</key>
